@@ -1,0 +1,29 @@
+{
+    "name": "submissionmlgc-elsa",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon ./src/server/server.js",
+      "start": "node ./src/server/server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Elsa Yonata Sugiono",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "@google-cloud/firestore": "^7.10.0",
+      "@hapi/hapi": "^21.3.12",
+      "@tensorflow/tfjs-node": "^4.22.0",
+      "dotenv": "^16.4.7",
+      "firebase-admin": "^13.0.1",
+      "google-gax": "^4.4.1"
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.16.0",
+      "eslint": "^9.16.0",
+      "globals": "^15.13.0",
+      "nodemon": "^3.1.7"
+    }
+  }
+  
